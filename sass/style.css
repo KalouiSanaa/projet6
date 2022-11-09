@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(193, 195, 196);
+}
+
+.header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  background-color: rgb(177, 132, 139);
+  width: auto;
+}
+
+#mybook {
+  display: block;
+}
+
+.title {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+}
+
+.h2 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+}
+
+#logo {
+  text-align: center;
+  width: 15%;
+  border-style: outset;
+  border-radius: 6px;
+  margin: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#content {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+}
+
+.bou {
+  color: rgb(45, 158, 158);
+  font-family: Arial, Helvetica, sans-serifs;
+  border-radius: 4px;
+}
+
+.bou:hover {
+  color: rgb(121, 105, 160);
+  background-color: rgb(167, 4, 4);
+} 
+
+.footer{
+  text-align: center;
+  color: rgb(133, 113, 113);
+  
+  }
+/*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */

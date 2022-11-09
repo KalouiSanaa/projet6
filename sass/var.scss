@@ -1,0 +1,24 @@
+//variable
+//--color
+$primary-color:lighten(rgb(233, 236, 236),10%);
+$header-color:rgb(177, 132, 139);
+$bou-color: rgb(45, 158, 158);
+//--font
+$font-body:Arial, Helvetica, sans-serif;
+
+
+@function text-color($color){
+@if(lightness($color)>70){
+    @return rgba(15, 0, 0, 0.2);
+
+}
+@else{
+    @return rgb(80, 73, 73);
+}
+}
+
+@mixin background-color($color) {
+    background-color: $color;
+    color:text-color($color);
+    
+}
