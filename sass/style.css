@@ -1,12 +1,13 @@
 body {
-  background-color: rgb(193, 195, 196);
+  background-color: rgba(196, 207, 207, 0.849);
 }
 
 .header {
   font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
-  background-color: rgb(177, 132, 139);
+  background-color: rgba(196, 207, 207, 0.849);
   width: auto;
+  width: 90%;
 }
 
 #mybook {
@@ -17,7 +18,6 @@ body {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin: auto;
 }
 
 .h2 {
@@ -28,6 +28,7 @@ body {
 }
 
 #logo {
+  padding: 10px, 20px;
   text-align: center;
   width: 15%;
   border-style: outset;
@@ -39,6 +40,7 @@ body {
 }
 
 #content {
+  padding: 10px, 20px;
   display: block;
   text-align: center;
   margin-left: auto;
@@ -46,20 +48,64 @@ body {
   margin: auto;
 }
 
-.bou {
-  color: rgb(45, 158, 158);
-  font-family: Arial, Helvetica, sans-serifs;
-  border-radius: 4px;
+.footer {
+  text-align: center;
+  color: rgba(133, 113, 113, 0.301);
 }
 
+form {
+  display: block;
+  background-color: rgba(185, 188, 192, 0.363);
+  width: 70%;
+  size: 20px;
+  align-items: center;
+  text-align: center;
+  border-radius: 3px;
+  margin: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+form .form__heading {
+  align-items: center;
+  border-style: outset;
+  border-radius: 6px;
+  margin: 3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bou {
+  padding: 10px, 20px;
+  background-color: rgb(50, 150, 150);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 4px;
+}
 .bou:hover {
   color: rgb(121, 105, 160);
-  background-color: rgb(167, 4, 4);
-} 
+}
 
-.footer{
-  text-align: center;
-  color: rgb(133, 113, 113);
-  
-  }
-/*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */
+.btn-search, .btn-annul {
+  width: 150px;
+  color: white;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px, 20px;
+  margin: 5px;
+  background-color: rgba(9, 202, 202, 0.9725490196);
+}
+.btn-search:hover, .btn-annul:hover {
+  color: rgb(6, 124, 179);
+}
+
+.btn-annul {
+  background-color: red;
+}
+.btn-annul:hover {
+  color: rgb(6, 124, 179);
+}
+
+input {
+  width: 600px;
+  height: 20px;
+  font-size: 16px;
+}/*# sourceMappingURL=style.css.map */
